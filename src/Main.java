@@ -6,9 +6,9 @@ public class Main {
         double Height = 1.87F;
         double Weight = 98;
 
-        double c = service.calculate(Height, Weight);
+        double calculated = service.calculate(Height, Weight);
 
-        int result = (int) c;
+        int result = (int) calculated;
 
         System.out.println("Result is: " + result);
 
